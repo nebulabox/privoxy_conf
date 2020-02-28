@@ -1,0 +1,19 @@
+FILTER: cjx-annoyance Tag filter of cjx-annoyance
+s@<([a-zA-Z0-9]+)\s+.*id=.?doyoo_mon_mask.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?doyoo_monitor.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*class=.?siteAnn1.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?SOHU_MAIN > \.module-cmt-float-bar.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?appBottomIn.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?appIn.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?appqrcode.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?bottomApp.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?bottom_qr_code.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?login_wp\.foot_flwp.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?qrcodeDownloadBar.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?qrcodeWrap.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?sign-ad.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?upprev_box.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?windlocation.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*class=.?s\.u\.m\.o\.me\.scrollbox-popup.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?pop_hongbao.*>.*</\1>@@g
+s@<([a-zA-Z0-9]+)\s+.*id=.?bgframe[style[/&:?=_]="position: fixed;"].*>.*</\1>@@g
